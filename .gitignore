@@ -1,0 +1,12 @@
+/target
+target
+Cargo.lock
+node_modules
+build
+.build
+.serverless
+serverless
+package-lock.json
+samconfig.toml
+.aws-sam
+aws-sam
