@@ -1,3 +1,3 @@
 # README
 
-Maybe programs.
+Small Rust examples / programs / scratches.
