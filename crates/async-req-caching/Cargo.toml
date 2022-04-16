@@ -1,0 +1,39 @@
+[package]
+name = "arc"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+# Enable backtrace for release builds
+debug = 1
+
+[dependencies]
+# Error Handling.
+color-eyre = "0.6.1"
+eyre = "0.6.8"
+thiserror = "1.0.30"
+
+# Async Runtime & HTTP framework
+tokio = { version = "1.17.0", features = ["full"] }
+axum = { version = "0.5.1" }
+
+# HTTP Client
+reqwest = { version = "0.11.10", default-features = false, features = [
+    "rustls-tls",
+] }
+
+# Mutex implementation for request coalescing.
+parking_lot = "0.12.0"
+
+# Middlewares
+tower = "0.4.12"
+tower-http = { version = "0.2.5", features = ["trace"] }
+
+# Tracing
+tracing = "0.1.34"
+tracing-error = "0.2.0"
+tracing-subscriber = { version = "0.3.11", features = ["env-filter"] }
+tracing-tree = "0.2.0"
+
+# JSON deser
+serde = { version = "1.0.136", features = ["derive"] }

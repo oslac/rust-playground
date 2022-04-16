@@ -10,3 +10,9 @@ package-lock.json
 samconfig.toml
 .aws-sam
 aws-sam
+debug/
+target/
+**/*.rs.bk
+*.pdb
+.vscode
+.idea
