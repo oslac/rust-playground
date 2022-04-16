@@ -10,7 +10,7 @@ This is a working example of the [request coalescing pattern](https://fasterthan
 
 Using other HTTP load generator tools, like [rakyll/hey](https://github.com/rakyll/hey), should also return the same results.
 
-Using `curl` at the cold start should also cause the *receiver* to return an error (and if you keep calling it, the actual response fetched from `jsonplaceholder.com`)
+Using `curl` at the cold start should also cause the [receiver](https://github.com/oslac/rs-scribbles/blob/9b12556df887a5010af7161575b023791a1e8d16/crates/async-req-caching/src/cache.rs#L118) to return an error (and if you keep calling it, the actual response fetched from `jsonplaceholder.com`)
 
 ```bash
 $ curl http://localhost:8080
