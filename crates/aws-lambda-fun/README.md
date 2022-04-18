@@ -1,4 +1,4 @@
-# `aws-hello`
+# `aws-lambda-fun`
 
 This example is meant to instruct what are the barebones project & configuration requirements for deploying a hello-worldish Rust application to AWS Lambda; there are not many requirements.
 

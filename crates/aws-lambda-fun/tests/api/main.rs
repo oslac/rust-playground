@@ -1,4 +1,4 @@
-use aws_hello::hello;
+use alf::hello;
 use lambda_http::{Body, IntoResponse, Request};
 
 #[tokio::test]
