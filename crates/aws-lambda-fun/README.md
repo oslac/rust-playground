@@ -15,4 +15,4 @@ This example is meant to instruct what are the barebones project & configuration
 
 ## Disclaimer
 
-*Please note that you may incur AWS charges for deploying the `aws-hello` into your AWS account. To track costs in your AWS account, consider using AWS Cost Explorer and AWS Billing and Cost Management. You can also set up a billing alarm to get notified of unexpected charges.*
+*Please note that you may incur AWS charges for deploying the `aws-lambda-fun` into your AWS account. To track costs in your AWS account, consider using AWS Cost Explorer and AWS Billing and Cost Management. You can also set up a billing alarm to get notified of unexpected charges.*
