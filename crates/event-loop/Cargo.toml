@@ -1,0 +1,13 @@
+[package]
+name = "event-loop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "3.1.14", features = ["derive"] }
+color-eyre = "0.6.1"
+log = "0.4.16"
+tracing = "0.1.34"
+tracing-error = "0.2.0"
+tracing-subscriber = { version = "0.3.11", features = ["env-filter"] }
+tracing-tree = "0.2.0"
