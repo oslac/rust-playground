@@ -16,3 +16,4 @@ target/
 *.pdb
 .vscode
 .idea
+ignore
